@@ -1,0 +1,10 @@
+{
+    "name": "capuvilla/capi",
+    "authors": [
+        {
+            "name": "capuvilla",
+            "email": "app@capuvilla.com.br"
+        }
+    ],
+    "require": {}
+}
