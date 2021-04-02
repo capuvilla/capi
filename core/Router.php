@@ -4,8 +4,8 @@ namespace Capi\Core;
 
 class Router
 {
-    public function handler()
-    {
-        return true;
-    }
+  public function handler()
+  {
+    return true;
+  }
 }
