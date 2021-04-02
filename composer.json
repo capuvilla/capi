@@ -1,18 +1,21 @@
 {
-    "name": "capuvilla/capi",
-    "authors": [
-        {
-            "name": "capuvilla",
-            "email": "app@capuvilla.com.br"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Capi\\Framework\\": "src",
-            "Capi\\Framework\\Core\\": "src/core"
-        }
-    },
-    "require": {
-        "phpunit/phpunit": "^9.5"
+  "name": "capuvilla/capi",
+  "authors": [
+    {
+      "name": "capuvilla",
+      "email": "app@capuvilla.com.br"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app",
+      "Capi\\Framework\\": "src",
+      "Capi\\Framework\\Core\\": "src/core",
+      "Capi\\Framework\\Config\\": "src/config"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^9.5",
+    "illuminate/database": "^8.35"
+  }
 }
