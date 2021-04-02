@@ -6,5 +6,11 @@
             "email": "app@capuvilla.com.br"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Capi\\Framework\\": "src",
+            "Capi\\Core\\": "core"
+        }
+    },
     "require": {}
 }
