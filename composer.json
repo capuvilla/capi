@@ -9,7 +9,7 @@
     "autoload": {
         "psr-4": {
             "Capi\\Framework\\": "src",
-            "Capi\\Core\\": "core"
+            "Capi\\Framework\\Core\\": "src/core"
         }
     },
     "require": {
