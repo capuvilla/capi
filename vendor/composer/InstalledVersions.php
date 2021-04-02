@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'f180d3118a5b6fc4a2fa88c7bac5f974a6275603',
+    'reference' => 'c8323384eee968a7914b04530729a4d4eae9def5',
     'name' => 'capuvilla/capi',
   ),
   'versions' => 
@@ -42,7 +42,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'f180d3118a5b6fc4a2fa88c7bac5f974a6275603',
+      'reference' => 'c8323384eee968a7914b04530729a4d4eae9def5',
     ),
     'doctrine/inflector' => 
     array (
@@ -545,6 +545,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '75a63c33a8577608444246075ea0af0d052e452a',
+    ),
+    'twig/twig' => 
+    array (
+      'pretty_version' => 'v3.3.0',
+      'version' => '3.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1f3b7e2c06cc05d42936a8ad508ff1db7975cdc5',
     ),
     'voku/portable-ascii' => 
     array (

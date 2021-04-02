@@ -1,7 +1,7 @@
 <?php
 
-require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . '/src/config/database.php';
+require __DIR__ . '/../../vendor/autoload.php';
+require __DIR__ . '/../config/database.php';
 
 // defino o método http e a url amigável
 $method = $_SERVER['REQUEST_METHOD'];
@@ -28,6 +28,8 @@ if (!$result) {
   die();
 }
 
+$twig = require(__DIR__ . '/Renderer.php');
+
 // verifico se é uma função anônima
 if ($result instanceof Closure) {
   // imprimo a página atual
@@ -40,7 +42,7 @@ if ($result instanceof Closure) {
   $result = explode('::', $result);
 
   // instancio o controller
-  $controller = new $result[0];
+  $controller = new $result[0]($twig);
   // guardo o método a ser executado (em um controller ele se chama action)
   $action = $result[1];
 

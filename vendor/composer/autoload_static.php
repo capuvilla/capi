@@ -34,6 +34,10 @@ class ComposerStaticInit96f00e7f002e279c387a21b1c17fc0a6
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'Twig\\' => 5,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -95,6 +99,10 @@ class ComposerStaticInit96f00e7f002e279c387a21b1c17fc0a6
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
